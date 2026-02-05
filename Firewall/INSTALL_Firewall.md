@@ -66,7 +66,7 @@
 
 Au premier démarrage après l'installation, pfSense peut proposer automatiquement la configuration des interfaces réseau. Si c'est le cas, suivre les étapes ci-dessous. Si pfSense ne propose pas cette configuration et affiche directement le menu principal, passer à la section suivante pour configurer les interfaces manuellement via l'option 1 (Assign Interfaces) du menu.
 
-**Cas 1 : pfSense propose la configuration au démarrage :**
+1 → **pfSense propose la configuration au démarrage :**
 
 1. **Should VLANs be set up now?** : n
 2. **Enter the WAN interface name** : em0
@@ -78,7 +78,7 @@ Au premier démarrage après l'installation, pfSense peut proposer automatiqueme
 
 6. Attendre le démarrage complet
 
-**Cas 2 : pfSense affiche directement le menu principal :**
+2 → **pfSense affiche directement le menu principal :**
 
 1. Dans le menu principal, taper 1 pour **Assign Interfaces**
 2. **Should VLANs be set up now?** : n
