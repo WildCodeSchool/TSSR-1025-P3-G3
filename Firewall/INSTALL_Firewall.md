@@ -74,7 +74,7 @@ Au premier démarrage après l'installation, pfSense peut proposer automatiqueme
 4. **Enter the Optional 1 interface name** : em2
 5. Confirmer avec y
 
-![Confirmer interfaces](Ressources/FW_14_confirmer_interfaces.png)
+![](Ressources/FW_14_confirmer_interfaces.png)
 
 6. Attendre le démarrage complet
 
@@ -94,7 +94,7 @@ Au premier démarrage après l'installation, pfSense peut proposer automatiqueme
 
 1. Dans le menu principal, taper 2 pour **Set interface(s) IP address**
 
-![Menu principal](Ressources/FW_config_lan.png)
+![](Ressources/FW_config_lan.png)
 
 2. Sélectionner l'interface 2 (LAN)
 3. Configure IPV4 address LAN via DHCP : entrez n
@@ -103,12 +103,12 @@ Au premier démarrage après l'installation, pfSense peut proposer automatiqueme
 6. For a wan, enter the new LAN IPV4 upstream gateway address : Press sur entrez
 7. Configure IPV6 address LAN interface via DHCP6 : n
 
-![Config LAN](Ressources/FW_config_lan2.png)
+![](Ressources/FW_config_lan2.png)
 
 5. **Do you want to enable the DHCP server on LAN?** : n
 6. **Do you want to revert to HTTP?** : n
 
-![Fin config LAN](Ressources/FW_config_lan3.png)
+![](Ressources/FW_config_lan3.png)
 
 ---
 
@@ -122,8 +122,8 @@ Au premier démarrage après l'installation, pfSense peut proposer automatiqueme
 6. Configure IPV6 address OPT1 interface via DHCP6 : n
 7. puis appuyez sur enter
 
-![Config DMZ](Ressources/FW_config_dmz.png)
+![](Ressources/FW_config_dmz.png)
 
 5. Laisser les autres options vides ou n
 
-![Fin config DMZ](Ressources/FW_config_dmz1.png)
+![](Ressources/FW_config_dmz1.png)
