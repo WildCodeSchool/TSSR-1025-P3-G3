@@ -25,10 +25,10 @@
 5. RAM : 1024 Mo
 6. Disque dur : 8 Go
 7. Aller dans **Configuration** → **Réseau**
-8. **Carte 1** : Mode Accès par pont (WAN - vers box FAI)
+8. **Carte 1** : Mode Accès par pont (WAN )
 9. **Carte 2** : Mode Réseau interne, Nom : LAN
 10. **Carte 3** : Mode Réseau interne, Nom : DMZ
-11. Insérer l'ISO pfSense dans le lecteur CD
+11. Insérer l'ISO 
 
 ### Installation de pfSense
 
@@ -44,8 +44,7 @@
 10. Confirmer l'installation
 11. Attendre la fin de l'installation
 12. Sélectionner **Reboot**
-13. Retirer l'ISO du lecteur CD
-
+13. Retirer l'ISO 
 ---
 
 ## Configuration
@@ -67,7 +66,7 @@
 
 Au premier démarrage après l'installation, pfSense peut proposer automatiquement la configuration des interfaces réseau. Si c'est le cas, suivre les étapes ci-dessous. Si pfSense ne propose pas cette configuration et affiche directement le menu principal, passer à la section suivante pour configurer les interfaces manuellement via l'option 1 (Assign Interfaces) du menu.
 
-**Cas 1 — pfSense propose la configuration au démarrage :**
+**Cas 1 : pfSense propose la configuration au démarrage :**
 
 1. **Should VLANs be set up now?** : n
 2. **Enter the WAN interface name** : em0
@@ -79,7 +78,7 @@ Au premier démarrage après l'installation, pfSense peut proposer automatiqueme
 
 6. Attendre le démarrage complet
 
-**Cas 2 — pfSense affiche directement le menu principal :**
+**Cas 2 : pfSense affiche directement le menu principal :**
 
 1. Dans le menu principal, taper 1 pour **Assign Interfaces**
 2. **Should VLANs be set up now?** : n
