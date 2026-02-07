@@ -8,7 +8,7 @@
 | CPU          | 1                 |
 | Stockage     | 8 Go              |
 | Réseau       | WAN / LAN / DMZ   |
-| IP WAN       | DHCP (box FAI)    |
+| IP WAN       | 192.168.1.250/24  |
 | IP LAN       | 192.168.10.254/24 |
 | IP DMZ       | 192.168.30.254/24 |
 | Compte       | admin             |
